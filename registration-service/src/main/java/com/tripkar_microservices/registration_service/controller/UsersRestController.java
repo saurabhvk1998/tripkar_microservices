@@ -88,11 +88,11 @@ public class UsersRestController {
 	
 	
 	
-	@GetMapping("/dummy")
+	@GetMapping("/test1")
 	public ResponseEntity<String> dummy()
 	{
 		
-		return ResponseEntity.ok("saurabh");
+		return ResponseEntity.ok("test1");
 	}
 	
 	
